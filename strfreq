@@ -1,0 +1,12 @@
+def freq(str): 
+    str_list = str.split() 
+    unique_words = set(str_list) 
+      
+    for words in unique_words : 
+        print('Frequency of ', words , 'is :', str_list.count(words)) 
+  
+if __name__ == "__main__": 
+      
+    str ='apple mango apple orange orange apple guava mango mango'
+      
+    freq(str)
